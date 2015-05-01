@@ -3,7 +3,7 @@
 	"description": "学如逆水行舟，不进则退",
 	"language": "zh-CN",
 	"gitbook": "2.x.x",
-	"plugins": ["duoshuo", "baidu", "codepen", "todo", "fancybox"],
+	"plugins": ["duoshuo"],
 	"links": {
 		"sidebar": {
 			"Superlin's Blog": "http://blog.liuwanlin.info"
