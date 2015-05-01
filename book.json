@@ -6,12 +6,12 @@
 	"plugins": ["duoshuo", "todo", "fancybox"],
 	"links": {
 		"sidebar": {
-			"Superlin's Blog": "http://blog.liuwanlin.info"
+			"Superlin's Blog": "http://liuwanlin.info"
 		}
 	},
 	"pluginsConfig": {
 		"duoshuo": {
-			"short_name": "lwlblog",
+			"short_name": "lwlread",
 			"theme": "default"
 		}
 	}
