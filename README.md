@@ -6,6 +6,7 @@ Superlin读书笔记
 ##在读
 
 -	[ ] 《WebKit技术内幕》
+-	[ ] 《High Performance Javascript》
 -	[ ] 《精通AngularJS》
 -	[ ] 《大型分布式网站架构与实践》
 -	[ ] 《大型网站技术架构核心原理与案例分析》
@@ -37,3 +38,4 @@ Superlin读书笔记
 -	[x] 《响应式Web图形设计》
 -	[x] 《图解CSS3》
 -	[x] 《JavaScript修炼之道》
+-	[x] 《HTTP权威指南》
