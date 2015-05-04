@@ -6,7 +6,7 @@ ECMASript5提供了一个`Object.create(prototype, optionalDescriptorObjects)`�
 
 ```javascript
 var parent = {
-    name: "skyinlayer",
+    name: "superlin",
     sayHello: function() {
         return "hello, " + this.name;
     }
@@ -29,10 +29,6 @@ var child = Object.create(parent, {
 
 console.log(child);
 ```
-
-可以查看到对象结构如下：
-
-![prototype的child对象结构](http://skyinlayerblog.qiniudn.com/img/gitbook/jsDesignPatterns/7.png)
 
 这里第二个参数用于差异继承，具体用法和Object.defineProperties和Object.defineProperty相似
 

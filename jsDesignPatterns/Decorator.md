@@ -46,7 +46,7 @@ NeedBooks(gaofushuai);
 NeedGirlfriend(gaofushuai);
 console.log(gaofushuai.getName() + " 每年需要金钱：" + gaofushuai.getCost());
 
-var skyinlayer = new Student("天镶");
+var skyinlayer = new Student("流星");
 NeedDormitory(skyinlayer);
 NeedBooks(skyinlayer);
 console.log(skyinlayer.getName() + " 每年需要金钱：" + skyinlayer.getCost());
@@ -54,7 +54,10 @@ console.log(skyinlayer.getName() + " 每年需要金钱：" + skyinlayer.getCost
 
 具体的输出如下所示：
 
-![高富帅需要钱16449，天镶要钱6450](http://skyinlayerblog.qiniudn.com/img/gitbook/jsDesignPatterns/10.png)
+```
+高富帅 每年需要金钱：106449
+流星 每年需要金钱：6450
+```
 
 这样就实现了装饰者模式了
 
@@ -121,7 +124,7 @@ StudentImpl.prototype.getName = function() {
 
 这里只定义了getName方法，缺少了getCost方法，于是乎在创建实例的时候将会报错：
 ```javascript
-console.log(new StudentImpl("天镶"));
+console.log(new StudentImpl("流星"));
 //Uncaught Error: 接口定义错误：未实现 Student 接口的 getCost方法 
 ```
 
@@ -130,8 +133,8 @@ console.log(new StudentImpl("天镶"));
 StudentImpl.prototype.getCost = function() {
     return 5500;
 };
-console.log(new StudentImpl("天镶"));
-//StudentImpl {name: "天镶", getName: function, getCost: function}
+console.log(new StudentImpl("流星"));
+//StudentImpl {name: "流星", getName: function, getCost: function}
 ```
 
 对象创建成功

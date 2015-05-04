@@ -71,16 +71,21 @@ mediator.install(colleague1).install(colleague2).install(colleague3);
 //模块3发布消息，模块1和模块2获取消息并输出
 colleague1.subscribe("pub3", callback);
 colleague2.subscribe("pub3", callback);
-colleague3.publish("pub3", "天镶", "求", "offer");
+colleague3.publish("pub3", "流星", "求", "offer");
 //模块2发布消息，模块1和模块3获取消息并输出
 colleague1.subscribe("pub2", callback);
 colleague3.subscribe("pub2", callback);
-colleague2.publish("pub2", "天镶", "想", "吃串");
+colleague2.publish("pub2", "流星", "想", "吃串");
 ```
 
 输出的结果如下：
 
-![mediator输出](http://skyinlayerblog.qiniudn.com/img/gitbook/jsDesignPatterns/6.png)
+```
+col2:流星,求,offer
+col1:流星,求,offer
+col3:流星,想,吃串
+col2:流星,想,吃串
+```
 
 信息传递都成功了
 

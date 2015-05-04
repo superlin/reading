@@ -79,18 +79,21 @@ var subscription = pubsub.subscribe("hello", function(eventName, data) {
     console.log("Event:" + eventName + "/data:" + data);
 });
 //向订阅者发送消息
-pubsub.publish("hello", ["天镶"]);
+pubsub.publish("hello", ["流星"]);
 //向订阅者发送消息
-pubsub.publish("hello", ["天镶", "求", "offer"]);
+pubsub.publish("hello", ["流星", "求", "offer"]);
 //取消订阅
 pubsub.unsubscribe(subscription);
 //向订阅者发送消息
-pubsub.publish("hello", ["天镶", "再求", "offer"]);
+pubsub.publish("hello", ["流星", "再求", "offer"]);
 ```
 
 结果可以看到，取消之后，订阅者不会再收到消息了：
 
-![pubsub输出结果](http://skyinlayerblog.qiniudn.com/img/gitbook/jsDesignPatterns/4.png)
+```
+Event:hello/data:流星
+Event:hello/data:流星,求,offer
+```
 
 ##优点和缺点
 Observer模式和Publish/Subscribe模式都能将应用程序分解成更小、更松散耦合的块，以改进代码管理和潜在的复用。并且可以动态的去更改不同部分的关系，有很大的灵活性

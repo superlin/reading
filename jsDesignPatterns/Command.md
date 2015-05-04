@@ -60,7 +60,7 @@ var studentManager = (function() {
 这里通过在传统的模块模式上增加了个excute方法，用于实现Command模式，而修改后的调用就可以变成这个样子：
 
 ```javascript
-studentManager.execute("add", 696, "skyinlayer");
+studentManager.execute("add", 696, "superlin");
 console.log(studentManager.execute("get", 696));
 console.log(studentManager.execute("count"));
 studentManager.execute("remove", 696);

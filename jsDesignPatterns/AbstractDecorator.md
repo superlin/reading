@@ -83,7 +83,7 @@ GirlfriendDecorator.prototype.getCost = function() {
 
 ##例子
 ```javascript
-var student = new Student("天镶");
+var student = new Student("流星");
 console.log(student.getCost());
 student = new DormitoryDecorator(student);
 console.log(student.getCost());
@@ -95,10 +95,11 @@ console.log(student.getCost());
 
 查看输出结果：
 
-![输出天镶需要5500,6050，16049,16449](http://skyinlayerblog.qiniudn.com/img/gitbook/jsDesignPatterns/11.png)
-
-如果查看student对象，可以看到它是如下结构的：
-
-![student对象结构](http://skyinlayerblog.qiniudn.com/img/gitbook/jsDesignPatterns/12.png)
+```
+5500
+6050
+106049
+106449
+```
 
 这就是抽象装饰器模式了。抽象装饰者模式可以动态的修改对象，因此更加完美，但内存消耗也要大得多

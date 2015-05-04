@@ -18,13 +18,11 @@ var Student = function(name, age, gender, id, score) {
 };
 Student.prototype = Object.create(Person.prototype);
 
-var student = new Student("天镶", "23", "男", 696, 60);
+var student = new Student("流星", "18", "男", 696, 60);
 console.log(student);
 ```
 
-这里超类为Person类，子类为Student类，在Student类实例化时，首先会调用超类构造函数，将超类的属性写入到子类中，而超类的原型也存在于子类的原型链上，超类原型上的方法也将被子类继承。可以看到输入结果如下：
-
-![混入创建对象成功](http://skyinlayerblog.qiniudn.com/img/gitbook/jsDesignPatterns/9.png)
+这里超类为Person类，子类为Student类，在Student类实例化时，首先会调用超类构造函数，将超类的属性写入到子类中，而超类的原型也存在于子类的原型链上，超类原型上的方法也将被子类继承。
 
 ##Mixin——混入
 在JavaScript中，我们可以将继承Mixin看做一种通过扩展收集功能的方式。我们可以通过向构造函数的prototype中扩展mixin对象来实现：
@@ -48,10 +46,10 @@ var myMixin = {
 //将扩展应用到构造函数prototype中
 extend(Student.prototype, myMixin);
 
-var student = new Student("天镶", "23", "男", 696, 60);
+var student = new Student("流星", "18", "男", 696, 60);
 //新建的实例拥有扩展方法了
-student.sayHello();//天镶 says: Hello! 
-student.sayBye();//天镶 says: Bye bye!
+student.sayHello();//流星 says: Hello! 
+student.sayBye();//流星 says: Bye bye!
 ```
 
 ##优点和缺点

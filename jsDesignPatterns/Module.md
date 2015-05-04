@@ -10,7 +10,7 @@ Module模式最初被定义为一种在传统软件工程中为类提供私有�
 ##创建模块
 ```javascript
 var someModule = (function(){
-    var name = "skyinlayer";
+    var name = "superlin";
     return {
         changeName: function(newName){
             name = newName;

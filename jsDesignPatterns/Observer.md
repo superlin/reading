@@ -135,4 +135,9 @@ $btn.addObserver(observer2);
 
 我们在input框中输入内容后，点击按钮，两个观察者将会获得input框的内容：
 
-![observer输出结果](http://skyinlayerblog.qiniudn.com/img/gitbook/jsDesignPatterns/2.png)
+```
+observer1 is notified,superlin
+observer2 is notified,superlin
+observer1 is notified,流星
+observer2 is notified,流星
+```

@@ -13,7 +13,7 @@ function Student(name, age, id){
 Student.prototype.getId = function(){
     return this.id;
 };
-var student = new Student("skyinlayer", 21, 696);
+var student = new Student("superlin", 18, 696);
 ```
 
 这就是典型的带原型的构造器，可以使构造函数所创建出来的实例共用getId方法
