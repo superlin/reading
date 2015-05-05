@@ -8,3 +8,5 @@
 作者：Nicholas C. Zakas
 
 （英文原版）
+
+![High Performance Javascript](http://superlin.github.io/reading/high-performance-js/head.jpg)
