@@ -108,7 +108,7 @@ var book2 = new Book("JavaScript: The Good Parts", "Yahoo! Press");
 ![原型链](http://superlin.github.io/reading/high-performance-js/5-prototype-chain.png)
 
 ###嵌套成员
-常常会看到``window.location.href``这种Javascript代码，这样的嵌套对象会是Javascript引擎每次都扫描所有的成员来解析成员，所以嵌套成员越深，访问速度越慢。执行``location.href``总是比``window.location.href``更快。
+常常会看到``window.location.href``这种Javascript代码，这样的嵌套对象会使Javascript引擎每次都扫描所有的成员来解析成员，所以嵌套成员越深，访问速度越慢。执行``location.href``总是比``window.location.href``更快。
 
 ###缓存对象成员
 对于那些不止访问一次的成员可以使用本地变量存储起来，例子如下：

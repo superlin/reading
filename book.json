@@ -13,6 +13,7 @@
 		"duoshuo": {
 			"short_name": "lwlread",
 			"theme": "default"
-		}
+		},
+		"fancybox": {}
 	}
 }
