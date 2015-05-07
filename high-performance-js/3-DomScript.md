@@ -26,9 +26,9 @@ function innerHTMLLoop() {
 		document.getElementById('here').innerHTML += 'a';
 	}
 }
-```javascript
-每次循环迭代都要操作两次DOM：获取``innerHTML``的值、修改``innerHTML``的值。更有效的方式是使用本地变量保存更新内容，在循环结束后一次性设置：
 ```
+每次循环迭代都要操作两次DOM：获取``innerHTML``的值、修改``innerHTML``的值。更有效的方式是使用本地变量保存更新内容，在循环结束后一次性设置：
+```javascript
 function innerHTMLLoop2() {
 	var content = '';
 	for (var count = 0; count < 15000; count++) {
