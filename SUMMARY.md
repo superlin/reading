@@ -1,6 +1,7 @@
 -	[高性能Javascript](high-performance-js/README.md)
  	-	[加载执行](high-performance-js/1-LoadExcute.md)
  	-	[数据访问](high-performance-js/2-DataAccess.md)
+ 	-	[DOM操作](high-performance-js/3-DomScript.md)
 -	[Webkit技术内幕](webkit-core/README.md)
 	-	[网页结构](webkit-core/construction.md)
 	-	[Webkit内核及特性](webkit-core/core-and-features.md)
