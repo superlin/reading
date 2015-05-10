@@ -3,6 +3,7 @@
  	-	[数据访问](high-performance-js/2-DataAccess.md)
  	-	[DOM操作](high-performance-js/3-DomScript.md)
  	-	[算法和流程控制](high-performance-js/4-AlgoFlowCon.md)
+ 	-	[字符串和正则表达式](high-performance-js/5-StringAndRegx.md)
 -	[Webkit技术内幕](webkit-core/README.md)
 	-	[网页结构](webkit-core/construction.md)
 	-	[Webkit内核及特性](webkit-core/core-and-features.md)
