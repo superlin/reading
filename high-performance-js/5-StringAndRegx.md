@@ -101,9 +101,6 @@ endsWithSemicolon = /;$/.test(str);
 ```javascript
 endsWithSemicolon = str.charAt(str.length - 1) == ";";
 ```
-
->译者注：需要扫描字符串所有字符的操作才可能需要使用正则表达式。
-
 ##字符串trim
 ###使用正则表达式来trim
 ```javascript
