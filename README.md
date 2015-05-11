@@ -6,7 +6,6 @@ Superlin读书笔记
 ##在读
 
 -	[ ] 《WebKit技术内幕》
--	[ ] 《High Performance Javascript》
 -	[ ] 《精通AngularJS》
 -	[ ] 《大型分布式网站架构与实践》
 -	[ ] 《大型网站技术架构核心原理与案例分析》
@@ -27,6 +26,7 @@ Superlin读书笔记
 
 ##已读
 
+-	[x] 《High Performance Javascript》
 -	[x] 《编写可读代码的艺术》
 -	[x] 《Pro Git》
 -	[x] 《Dont't make me think》

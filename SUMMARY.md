@@ -1,3 +1,4 @@
+-	[精通AngularJS](web-with-angular/README.md)
 -	[高性能Javascript](high-performance-js/README.md)
  	-	[加载执行](high-performance-js/1-LoadExcute.md)
  	-	[数据访问](high-performance-js/2-DataAccess.md)
