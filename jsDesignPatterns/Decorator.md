@@ -46,17 +46,17 @@ NeedBooks(gaofushuai);
 NeedGirlfriend(gaofushuai);
 console.log(gaofushuai.getName() + " 每年需要金钱：" + gaofushuai.getCost());
 
-var skyinlayer = new Student("流星");
-NeedDormitory(skyinlayer);
-NeedBooks(skyinlayer);
-console.log(skyinlayer.getName() + " 每年需要金钱：" + skyinlayer.getCost());
+var qiongaicuo = new Student("穷矮搓");
+NeedDormitory(qiongaicuo);
+NeedBooks(qiongaicuo);
+console.log(qiongaicuo.getName() + " 每年需要金钱：" + qiongaicuo.getCost());
 ```
 
 具体的输出如下所示：
 
 ```
 高富帅 每年需要金钱：106449
-流星 每年需要金钱：6450
+穷矮搓 每年需要金钱：6450
 ```
 
 这样就实现了装饰者模式了
