@@ -34,6 +34,8 @@ Superlin读书笔记
 -	[x] 《Dont't make me think》
 -	[x] 《HTML5 Canvas核心技术》
 -	[x] 《Web性能权威指南》
+-	[x] 《MongoDB: The Definitive Guide》
+-	[x] 《Redis in action》
 -	[x] 《CSS禅意花园》
 -	[x] 《HTML5应用开发实践指南》
 -	[x] 《高性能HTML5》
