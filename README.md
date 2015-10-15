@@ -5,6 +5,8 @@ Superlin读书笔记
 
 ##在读
 
+
+-	[ ] 《Web性能权威指南》
 -	[ ] 《HTML Canvas》
 -	[ ] 《WebGL入门指南》
 -	[ ] 《大型分布式网站架构与实践》
@@ -33,7 +35,6 @@ Superlin读书笔记
 -	[x] 《Pro Git》
 -	[x] 《Dont't make me think》
 -	[x] 《HTML5 Canvas核心技术》
--	[x] 《Web性能权威指南》
 -	[x] 《MongoDB: The Definitive Guide》
 -	[x] 《Redis in action》
 -	[x] 《CSS禅意花园》
