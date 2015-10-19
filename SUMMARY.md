@@ -1,6 +1,7 @@
 -	[web性能权威指南](high-performance-browser-networking//README.md)
   -	[网络技术概览](high-performance-browser-networking//p1.md)
- 	-	[HTTP](high-performance-browser-networking//p3.md)
+  -	[HTTP](high-performance-browser-networking//p3.md)
+ 	-	[浏览器API和协议](high-performance-browser-networking//p4.md)
 -	[高性能Javascript](high-performance-js/README.md)
  	-	[加载执行](high-performance-js/1-LoadExcute.md)
  	-	[数据访问](high-performance-js/2-DataAccess.md)
