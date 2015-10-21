@@ -5,8 +5,6 @@ Superlin读书笔记
 
 ##在读
 
-
--	[ ] 《Web性能权威指南》
 -	[ ] 《HTML Canvas》
 -	[ ] 《WebGL入门指南》
 -	[ ] 《大型分布式网站架构与实践》
@@ -25,6 +23,7 @@ Superlin读书笔记
 
 ##已读
 
+-	[ ] 《Web性能权威指南》
 -	[x] 《ECMAScript 6入门(全彩)》
 -	[x] 《WebKit技术内幕》
 -	[x] 《精通AngularJS》
